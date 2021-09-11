@@ -1,2 +1,1 @@
-# mynix
-my NixOS configuration
+this is mostly for me so i can easily duplicate my system but i have it public in case anybody wants to base their config off of this - this will set up a basic desktop system with most of what a typical user should need and it also appears to produce a working KDE environment, which i know sometimes doesn't happen on nix.
