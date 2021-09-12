@@ -96,6 +96,7 @@
 
   # software
   virtualisation.virtualbox.host.enable = true;
+  virtualisation.virtualbox.host.enableExtensionPack = true;
   users.extraGroups.vboxusers.members = [ "lyndsay" ];
   programs.steam.enable = true;
   nixpkgs.config.vivaldi = { proprietaryCodecs = true; enableWideVine = true; };
@@ -114,8 +115,10 @@
      desmume
      dolphinEmu
      fontforge
+     gnome.ghex
      gimp
      git
+     gparted
      gwenview
      inkscape
      k3b
