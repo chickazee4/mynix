@@ -1,0 +1,11 @@
+two themes are included, which share most of their files. in the w folder there is a white theme (https://www.gnome-look.org/p/1414997), in the r folder there is a similar theme with red-pink colors instead.
+
+to use the w theme (do this before nix-install), execute the following, replacing whatever is in square [] brackets with the appropriate information:
+    cd [install mountpoint]/extra/grub
+    sed -i "s/Lyndsay/[your name]/g" w/theme.txt
+    cp -r w [install mountpoint]/boot/grub/themes/nix
+to use the r theme:
+    cd [install mountpoint]/extra/grub
+    sed -i "s/Lyndsay/[your name]/g" r/theme.txt
+    cp -Lr r [install mountpoint]/boot/grub/themes/nix
+don't forget the -L option for cp if using r, otherwise the theme will not work and your os will be unbootable.

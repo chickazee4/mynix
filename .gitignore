@@ -1,0 +1,16 @@
+/bin
+/boot
+/dev
+/home
+/nix
+/proc
+/root
+/run
+/srv
+/sys
+/tmp
+/usr
+/var
+/etc/*
+!etc/nixos
+!etc/nixos/*
