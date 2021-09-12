@@ -10,7 +10,7 @@ installation:
     * all references to "lyndsay" should be replaced with your own name
     * change networking.hostName to an acceptable value
     * change services.xserver.videoDrivers to the appropriate value
-    * change the settings in programs.git to be your appropriate git credentials, or simply remove the latter three entries if you do not have git credentials
+    * change the hard drive UUID to mount at /usr/[yourname], or get rid of that option if your user dir is on the same partition as your root dir
 7. `nixos-install`
 8. `reboot`
 9. `passwd [your username]`
