@@ -115,6 +115,8 @@
      desmume
      dolphinEmu
      fontforge
+     gcc
+     gdb
      gnome.ghex
      gimp
      git
@@ -138,10 +140,12 @@
      okular
      openshot-qt
      pavucontrol
+     pciutils
      rstudio
      spotify
      texworks
      thunderbird
+     usbutils
      vivaldi-widevine
      vivaldi-ffmpeg-codecs
      vivaldi
