@@ -118,6 +118,7 @@
      git
      gwenview
      inkscape
+     k3b
      kate
      kcalc
      keepassxc
